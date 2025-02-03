@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <caption><h3>Add New Income or Expense</h3></caption>
-    <fieldset>
-        <form>
-            <label>Amount: <input type="number" placeholder="Enter amount"></label><br><br>
+    <center>
         
-            <label>Category:
-                <select>
-                    <option>Food</option>
-                    <option>Transportation</option>
-                    <option>Entertainment</option>
-                    <option>Salary</option>
-                    <option>Savings</option>
-                    <option>Utilities</option>
-                </select>
-            </label><br><br>
-        
-            <label>Description: <input type="text" placeholder="Enter description"></label><br><br>
-        
-            <label>Date: <input type="date"></label><br><br>
-        
-            <label>Type:
-                <input type="radio" name="type" value="income"> Income
-                <input type="radio" name="type" value="expense"> Expense
-            </label><br><br>
-        
-            <button type="submit">Add Entry</button>
-        </form>
-    </fieldset>
+        <caption>
+            <h3>Add New Income or Expense</h3>
+        </caption>
+        <fieldset>
+            <form>
+
+                <label>Income: <input type="number" placeholder="Enter income"></label><br><br>
+
+                <label>Expence: <input type="number" placeholder="Enter expence"></label><br><br>
+
+                <label>Category:
+                    <select>
+                        <option>Food</option>
+                        <option>Transportation</option>
+                        <option>Entertainment</option>
+                        <option>Salary</option>
+                        <option>Savings</option>
+                        <option>Utilities</option>
+                    </select>
+                </label><br><br>
+
+                <label>Description: <input type="text" placeholder="Enter description"></label><br><br>
+
+                <label>Date: <input type="date"></label><br><br>
+
+                <label>Type:
+                    <input type="radio" name="type" value="income"> Income
+                    <input type="radio" name="type" value="expense"> Expense
+                </label><br><br>
+
+                <button type="submit">Add Entry</button>
+            </form>
+        </fieldset>
+        <br>
+
+        <footer>
+
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of service</a>
+            <br>
+            <span>Personal Budget Tracker</span> |
+            <span>Version 1.0</span>
+        </footer>
+    </center>
 
 </body>
+
 </html>
